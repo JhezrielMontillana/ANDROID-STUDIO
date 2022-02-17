@@ -1,0 +1,16 @@
+<?php
+session_start();
+require_once './connection.php';
+include_once './functions.php';
+
+$EMAIL  = $_POST['email'];
+$CHECK = isEmailExist($EMAIL, $connect, true);
+
+$RESPONSE = [
+    "message" => !$CHECK ? "Email is available" : "Email is already exist!",
+    "status" => !$CHECK ? 202 : 204,
+    "success" => $CHECK,
+    "email" => $EMAIL
+];
+
+echo json_encode($RESPONSE);

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Admin Application</string>
+    <string name="app_name_display">Application</string>
+    <string-array name="ring_color_name">
+        <item>Tomato</item>
+        <item>Tangerine</item>
+        <item>Banana</item>
+        <item>Basil</item>
+        <item>Sage</item>
+        <item>Peacock</item>
+        <item>Blueberry</item>
+        <item>Lavender</item>
+        <item>Grape</item>
+        <item>Flamingo</item>
+        <item>Graphite</item>
+        <item>Default color</item>
+    </string-array>
+
+    <string-array name="ring_color">
+        <item name="tomato">#C82927</item>
+        <item name="tangerine">#E0653D</item>
+        <item name="banana">#DFB048</item>
+        <item name="basil">#29975E</item>
+        <item name="sage">#4ABA86</item>
+        <item name="peacock">#2A9DD6</item>
+        <item name="blueberry">#5262B9</item>
+        <item name="lavender">#7B87C6</item>
+        <item name="grape">#9B3EB3</item>
+        <item name="flamingo">#D48074</item>
+        <item name="graphite">#848484</item>
+        <item name="default_color">#4285F4</item>
+    </string-array>
+</resources>
